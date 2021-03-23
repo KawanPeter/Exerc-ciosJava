@@ -8,9 +8,9 @@ public class ContaVotos {
 		int Jose = 0, Joao = 0, Pedro = 0, Mateus = 0, Nulo = 0, Branco = 0;
 		int totalVotos;
 		do {
-			System.out.println("Para votar, você tem as seguintes opções:");
+			System.out.println("Para votar, vocÃª tem as seguintes opÃ§Ãµes:");
 			System.out.println("Jose = 1 | Joao = 2 | Pedro = 3 | Mateus = 4 | Nulo = 5 | Branco = 6");
-			System.out.println("Caso deseje finalizar a contagem das votações digite: 0");
+			System.out.println("Caso deseje finalizar a contagem das votaÃ§Ãµes digite: 0");
 			votos = scan.nextInt();
 				
 			switch (votos) {
@@ -45,7 +45,7 @@ public class ContaVotos {
 			System.out.println("O total de votos nulos foi de:" + Nulo);
 			System.out.println("O total de votos em branco foi de:" + Branco);
 			System.out.println("O percentual de votos nulos foi de:" + ((float)Nulo/totalVotos)*100 + "%.");
-			System.out.println("O percentual de votos nulos foi de:" + ((float)Branco/totalVotos)*100 + "%.");
+			System.out.println("O percentual de votos brancos foi de:" + ((float)Branco/totalVotos)*100 + "%.");
 			
 			
 	}		
